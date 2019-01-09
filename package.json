@@ -1,0 +1,31 @@
+{
+  "name": "desafio-dev-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "desafio-dev-backend": "server.js"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/server.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Wesley da Silva de Jesus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.3.0"
+  }
+}
